@@ -1,17 +1,25 @@
-.section2{
-  h1 {
-    color: red
+.section-2 {
+  height: 200px;
+  background: $color-grey2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $font-main;
+
+  .text-1 {
+    display:flex;
+    max-width: 400px;
+    font-size: 1.1em;
+
+    .h {
+      text-align: center;
+    }
+
   }
 
-  h2{
-    color: green;
-  }
-
-  h3 {
-    color: yellow;
-  }
-
-  h4 {
-    color: violet;
+  .text-2 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
   }
 }
