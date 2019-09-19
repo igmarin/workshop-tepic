@@ -1,17 +1,5 @@
-.section2{
-  h1 {
-    color: red
-  }
+//you shuould add yous section here
+@import 'sections/section2';
 
-  h2{
-    color: pink;
-  }
-
-  h3 {
-    color: yellow;
-  }
-
-  h4 {
-    color: blue;
-  }
-}
+//here you'll put variables and their value
+@import 'themes/tokens';
