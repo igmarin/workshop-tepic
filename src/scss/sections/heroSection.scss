@@ -1,0 +1,21 @@
+.hero{
+    display: flex;
+    flex-wrap: wrap;
+    img{
+        margin-left: 50px;
+        width: 600px;
+        height: 600px;
+    }
+    .herophs{
+        margin-top: 163px;
+        .heroph1{
+            margin: 0;
+            font-size: 40px;
+            font: $font-main;
+        }
+        .heroph2{
+            margin: 0;
+            font-size: 12px;
+        }
+    }
+}
