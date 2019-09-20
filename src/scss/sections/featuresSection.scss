@@ -1,5 +1,6 @@
 .features{
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
     img{
         margin-left: 50px;
         width: 500px;
