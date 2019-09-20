@@ -1,7 +1,19 @@
-div .buynow{
-    div .buynowphs{
-        p .buynowph{
-
+.buynow{
+    img{
+        position: absolute;
+        height: 500px;
+        width: 100%;
+    }
+    .buynowphs{
+        background: linear-gradient(80deg, transparent, rgb(185, 157, 104));
+        position: relative;
+        height: 436px;
+        padding-top: 5%;
+        padding-left: 43%;    
+        .buynowph{
+            font-size: 40px;
+            font: $font-main;
+            color: $color-white;
         }
     }
 }
