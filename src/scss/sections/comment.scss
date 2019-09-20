@@ -1,26 +1,21 @@
-.section-2 {
-  height: 200px;
+.comment {
+  height: 350px;
   background: $color-grey2;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: $font-main;
 
-  .text-1 {
+  .text {
     display:flex;
-    max-width: 400px;
-    font-size: 1.1em;
-
-    .h {
-      text-align: center;
-    }
-
-  }
-
-  .text-2 {
-    display: flex;
+    max-width: 600px;
+    text-align: center;
     justify-content: center;
     font-weight: bold;
+    font-size: 1.1em;
+    
+    .h3 {
+      font-size: 1.5em;
+    }
   }
-  
 }
