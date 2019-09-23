@@ -1,8 +1,8 @@
 /*Estilos para Navbar*/
-nav{
+nav {
   background: $color-white;
   
-  ul{
+  ul {
     list-style-type: none;
   }
   a {
@@ -15,13 +15,7 @@ nav{
     padding: 15px 5px;
   }
   
-  .logo a,
-  .toggle a {
-    font-size: 20px;
-  }
-  .button.secondary {
-    border-bottom: 1px #444 solid;
-  }
+
   /* Mobile menu */
   .menu {
     display: flex;
