@@ -1,0 +1,21 @@
+.testimony {
+  height: 350px;
+  background: $color-grey2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $font-main;
+
+  .text {
+    display:flex;
+    max-width: 600px;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    
+    .h3 {
+      font-size: 1.5em;
+    }
+  }
+}
