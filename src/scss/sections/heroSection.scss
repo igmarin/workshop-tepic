@@ -1,4 +1,5 @@
 .hero{
+    padding-left: 10%;
     display: flex;
     flex-wrap: wrap;
     img{
@@ -8,14 +9,20 @@
     }
     .herophs{
         margin-top: 163px;
-        .herophTitle{
+        .heroph1{
             margin: 0;
             font-size: 40px;
             font: $font-main;
         }
-        .herophContent{
+        .heroph2{
             margin: 0;
             font-size: 12px;
+        }
+        .heroButton{
+            color:  rgb(156, 134, 6);
+            border-radius: 0;
+            padding: 5px 15px;
+            border-color: rgb(156, 134, 6);
         }
     }
 }
