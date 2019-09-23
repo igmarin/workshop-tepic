@@ -4,55 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet"> 
     <title>Workshop</title>
     <script src="https://unpkg.com/lodash@4.16.6"></script>
   </head>
   <body>
-    <!--      Navbar section starts           -->
-    <nav class="navbar navbar-expand-lg navbar-light container">
-      
-      <img src="design/images/logo.png" alt="">
-      
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Product</a>
-          </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Reviews</a>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-           
-          </ul>
-          
-        </div>
-      </nav>
-    <!--      Navbar section ends-->
-    <div id='main'></div>
-      
-        
 
+    <!--  Navbar section starts -->
+   <nav class="navbar_main">
+    <ul class="menu">
+      <li class="logo"><img src="design/images/logo.png" alt=""></li>
+      <li class="item"><a href="#">Product</a></li>
+      <li class="item"><a href="#">Features</a></li>
+      <li class="item"><a href="#">Reviews</a></li>
+      <li class="item"><a href="#">Pricing</a></li>
+      <li class="item"><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <!--terminar el navbar y crear el responsive design-->
+    <!--  Navbar section ends-->
+    
+   
 
 
     <!--      Hero section starts            -->
     <div class="hero">
       <img src="./src/images/hero.jpg" alt="">
       <div class="herophs">
-        <p class="herophTitle">
+        <p class="heroph1">
           Wireless Bluetooth <br> Speakers of tomorrow
         </p>
-        <p class="herophContent">
+        <p class="heroph2">
           Beoplay A1 bluetooth speakers image in the left is owned by Bang and Olufsen <br>
           and is released under creative commons lisence. So, I downloaded it and <br>
           displayed it here in my demo. <br><br>
@@ -86,10 +68,10 @@
     <div class="features">
         <img src="./src/images/details.jpg" alt="">
         <div class="featuresph">
-          <p class="featuresphTitle">
+          <p class="featuresph1">
             Features and Specifications
           </p>
-          <p class="featuresphContent">
+          <p class="featuresph2">
             <ul>
               <li>Firstly, most elegant and beautiful design</li>
               <li>36 Hours battery Backup</li>
@@ -143,23 +125,25 @@
 
 
     <!--       Footer section starts-->
+    <!--En el footer crear estilos -->
+    
     <footer>
         <div class="flexbox-container">
-           <div>
+           <div class="footer-left">
              <img src="design/images/logo.png" alt="">
              <p>A technology startup based somewhere in the world.
                  making the finest bluetooth speakers ever made.
                  You'will know our location if you really love us.</p>
 
-                 <p>Copyright © 2016 Advent Inc. All Rights Reserved</p>
+             <p class="copyright">Copyright © 2016 Advent Inc. All Rights Reserved</p>
            </div>
 
-           <div>
-              <h1>Need Help?</h1>
+           <div class="footer-rigth">
+             <img src="design/images/comments.png" alt="">
+              <h2 class="help">Need Help ?</h2>
 
               <p>Contact our 24/7 customer support if you have any questions. We will help you out</p>
-              <p>support@gmail.com</p>
-
+              <p class="gmail" ><a href="">support@gmail.com</a></p>
            </div>
         </div>
       
