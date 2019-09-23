@@ -3,9 +3,12 @@
 @import 'themes/tokens';
 
 //you shuould add yous section here
-//@import 'sections/layout';
-//@import 'sections/section2';
+@import 'sections/navbar.scss';
 @import 'sections/heroSection';
+//@import 'sections/section2';
+@import 'sections/featuresSection.scss';
+@import 'sections/footer.scss';
+
 @import 'sections/featuresSection.scss';
 @import 'sections/buynowSection.scss';
 @import 'sections/comment.scss'
