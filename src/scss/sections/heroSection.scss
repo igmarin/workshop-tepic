@@ -2,6 +2,7 @@
     padding-left: 10%;
     display: flex;
     flex-wrap: wrap;
+    font-family: $font-main;
     img{
         margin-left: 50px;
         width: 500px;
@@ -12,7 +13,6 @@
         .herophTitle{
             margin: 0;
             font-size: 40px;
-            font: $font-main;
         }
         .herophContent{
             margin: 0;
