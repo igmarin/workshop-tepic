@@ -2,17 +2,26 @@
     box-sizing: border-box;
     background-color: rgba($color: #000000, $alpha: .6);
     font-family: $font-subscribe;
+    position: relative;
+    overflow: hidden;
+    padding: 4% 0;
 
     img {
         position: absolute;
-        width: 100%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
         z-index: -999;
     }
 
     .container-subs{
         box-sizing: border-box;
         margin-left: auto;
-        padding: 150px 200px 150px 100px;
+        display:flex;
+        flex-direction: column;
+        align-content: center;
+        //padding: 200px 200px 150px 100px;
         width: 50%;
 
         h1, p{
