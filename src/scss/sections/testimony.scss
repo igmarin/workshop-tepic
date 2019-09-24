@@ -1,21 +1,46 @@
 .testimony {
-  height: 350px;
-  background: $color-grey2;
+  font-family: $font-main;
+  background-color: $color-grey2;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: $font-main;
+  flex-direction: column;
+  padding: 10%;
 
-  .text {
-    display:flex;
-    max-width: 600px;
-    text-align: center;
-    justify-content: center;
-    font-weight: bold;
-    font-size: 1.1em;
+  .image {
+    height: 90px;
+    overflow: hidden;
+    border-radius: 50%;
     
-    .h3 {
-      font-size: 1.6em;
+    img {
+      height: inherit;
+    }
+  }
+  .text {
+    color: $color-grey1;
+    display: flex;
+    max-width: 80%;
+    text-align: center;
+  }
+  .user {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 10px;
+    
+    p {
+      color: $color-black;
+      margin: .2rem;
+    }
+  }
+  .stars {
+    fill: $color-orange;
+
+    .star {
+      height: $star-size;
+      width: $star-size;
+      margin: 0 4px;
     }
   }
 }
