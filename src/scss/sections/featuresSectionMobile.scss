@@ -2,6 +2,16 @@
 @media only screen and (max-width:576px){
     .features{
         padding-left: 2%;
+        
+        
+        .featuresphTitle{
+            .flexbox-container > div {
+                width: 50%;
+                padding: 120px;
+          
+            }
+        }
+
         img{
             width: 100%;
             margin-left: 0px;
@@ -9,10 +19,11 @@
         .featuresph{
             margin-top: 0px;
             .featuresphTitle{
-                padding-left: 40px;
+                //padding-left: 40px;
                 text-align: center;
             }
             ul{
+                padding-left: 0;
                 list-style: none;
                 text-align: center;
                 color: gray;
