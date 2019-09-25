@@ -22,7 +22,13 @@
         flex-direction: column;
         align-content: center;
         //padding: 200px 200px 150px 100px;
-        width: 50%;
+        @media screen and (max-width:768px) {
+            width: 94%;
+            text-align: center;
+          }
+        @media screen and (min-width: 1200px) {
+            width: 50%;
+        }
 
         h1, p{
             color: white;

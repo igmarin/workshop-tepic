@@ -9,7 +9,12 @@
         position: relative;
         height: 436px;
         padding-top: 5%;
-        padding-left: 43%;    
+        @media screen and (max-width:768px) {
+            padding-left: 10%;
+          }
+        @media screen and (min-width: 1200px) {
+            padding-left: 43%;
+        }       
         .buynowph{
             font-size: 40px;
             font-family: $font-main-light;
