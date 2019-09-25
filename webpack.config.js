@@ -4,7 +4,15 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 
 module.exports = {
-  
+devServer: {
+ allowedHosts: [
+  'host.com',
+  'subdomain.host.com',
+  'subdomain2.host.com',
+  '78d0db8f.ngrok.io',
+  'iq3di4tikuyr3lxhsqimn2.webrelay.io'
+   ]
+  },  
   entry: path.resolve(__dirname, 'src/index.js'),
   output: {
     path: path.resolve(__dirname, 'dist'),

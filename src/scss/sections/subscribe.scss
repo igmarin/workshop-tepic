@@ -16,13 +16,19 @@
     }
 
     .container-subs{
+        text-align: center;
         box-sizing: border-box;
         margin-left: auto;
         display:flex;
         flex-direction: column;
         align-content: center;
         //padding: 200px 200px 150px 100px;
-        width: 50%;
+        @media screen and (max-width:768px) {
+            width: 94%;
+          }
+        @media screen and (min-width: 1200px) {
+            width: 50%;
+        }
 
         h1, p{
             color: white;
