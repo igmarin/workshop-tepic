@@ -1,15 +1,20 @@
 .buynow{
+    position: relative;
+    overflow:hidden;
+    box-sizing: border-box;
     img{
         position: absolute;
-        height: 500px;
-        width: 100%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: -999;
     }
     .buynowphs{
         background: linear-gradient(80deg, transparent, rgb(185, 157, 104));
-        position: relative;
-        height: 436px;
-        padding-top: 5%;
-        padding-left: 43%;    
+        //height: 436px;
+        padding: 8% 8px 8% 53%;
+        
         .buynowph{
             font-size: 40px;
             font-family: $font-main-light;
