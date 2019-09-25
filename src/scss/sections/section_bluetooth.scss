@@ -1,29 +1,49 @@
 .container-bluetooth {
+    @media screen and (max-width:768px) {
+        text-align: center;
+      }
+    @media screen and (min-width: 1200px) {
+        display: -webkit-flex;
+    }
     display: -ms-flex;
-    display: -webkit-flex;
     display: center;
     padding: 120px;
  
 }
 
 .bluetooth-text{
-    width: 60%;
+    @media screen and (min-width: 1200px) {
+        width: 60%;
+    }
+    
 }
 
 .bluetooth-first{
-    line-height: $line-height-1;
+    
+    @media screen and (min-width: 1200px) {
+        line-height: $line-height-1;
+    }
 }
 
 .bluetooth-img{
-    width: 40%;
+    @media screen and (min-width: 1200px) {
+        width: 40%;
+    }
 }
 
 
 .bluetooth-text img{
-    width: 30%;
-    height: 15%;
+    @media screen and (min-width: 1200px) {
+        width: 30%;
+        height: 15%;
+    }
     padding-top: 25px;
     padding-bottom: 10px;
+    @media screen and (max-width:768px) {
+        width: 66%;
+        height: 14%;
+    }
+
 }
 
 
