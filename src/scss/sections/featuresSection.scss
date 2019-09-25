@@ -1,0 +1,24 @@
+.features{
+    padding-left: 7%;
+
+    display: flex;
+    flex-wrap: wrap;
+    img{
+        margin-left: 50px;
+        width: 500px;
+        height: 500px;
+    }
+    .featuresph{
+        margin-top: 163px;
+        .featuresphTitle{
+            margin: 0;
+            font-size: 40px;
+            font: $font-main;
+        }
+        .featuresphContent{
+            margin: 0;
+            font-size: 12px;
+            color: grey;
+        }
+    }
+}

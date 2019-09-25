@@ -1,0 +1,54 @@
+.container-bluetooth {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: center;
+    padding: 120px;
+ 
+}
+
+.bluetooth-text{
+    width: 60%;
+}
+
+.bluetooth-first{
+    line-height: $line-height-1;
+}
+
+.bluetooth-img{
+    width: 40%;
+}
+
+
+.bluetooth-text img{
+    width: 30%;
+    height: 15%;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+
+
+.bluetooth-img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.title_bluetooth{
+    color: $color-black;
+    font-family: $font-sectionbluetooth;
+    font-size: $font-size-3;
+    
+   
+}
+
+.compatible{
+color: $color-grey1;
+padding-top: 0px;
+padding-bottom: 20px;
+}
+
+.price{
+color: $color-grey1;
+}
+
