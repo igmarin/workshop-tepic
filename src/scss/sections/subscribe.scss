@@ -16,7 +16,6 @@
     }
 
     .container-subs{
-        text-align: center;
         box-sizing: border-box;
         margin-left: auto;
         display:flex;
@@ -25,6 +24,7 @@
         //padding: 200px 200px 150px 100px;
         @media screen and (max-width:768px) {
             width: 94%;
+            text-align: center;
           }
         @media screen and (min-width: 1200px) {
             width: 50%;

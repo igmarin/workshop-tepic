@@ -1,13 +1,21 @@
 .container-bluetooth {
+    @media screen and (max-width:768px) {
+        text-align: center;
+      }
+    @media screen and (min-width: 1200px) {
+        display: -webkit-flex;
+    }
     display: -ms-flex;
-    display: -webkit-flex;
     display: center;
     padding: 120px;
  
 }
 
 .bluetooth-text{
-    width: 60%;
+    @media screen and (min-width: 1200px) {
+        width: 60%;
+    }
+    
 }
 
 .bluetooth-first{
@@ -18,7 +26,9 @@
 }
 
 .bluetooth-img{
-    width: 40%;
+    @media screen and (min-width: 1200px) {
+        width: 40%;
+    }
 }
 
 
