@@ -1,0 +1,26 @@
+
+//here you'll put variables, their value and general changes
+@import 'themes/general';
+@import 'themes/tokens';
+
+//you shuould add yous section here
+@import 'sections/navbar.scss';
+@import 'sections/heroSection';
+
+
+@import 'sections/featuresSection.scss';
+@import 'sections/section_bluetooth.scss';
+@import 'sections/footer.scss';
+
+@import 'sections/featuresSection.scss';
+@import 'sections/buynowSection.scss';
+@import 'sections/comment.scss';
+
+@import 'sections/testimony';
+@import 'sections/subscribe.scss';
+
+@import 'sections/heroMobile';
+@import 'sections/featuresSectionMobile.scss';
+//@import 'sections/buynowSectionMobile';
+//@import 'sections/section_bluetoothMobile';
+@import 'sections/footerMobile';

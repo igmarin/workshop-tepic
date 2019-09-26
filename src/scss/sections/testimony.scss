@@ -1,0 +1,54 @@
+.testimony {
+  font-family: $font-main;
+  background-color: $color-grey2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10%;
+
+  .image {
+    height: 90px;
+    overflow: hidden;
+    border-radius: 50%;
+    
+    img {
+      height: inherit;
+    }
+  }
+
+  .text {
+    color: $color-grey1;
+    display: flex;
+    max-width: 80%;
+    text-align: center;
+  }
+
+  .user {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 10px;
+    
+    p {
+      color: $color-black;
+      margin: .2rem;
+    }
+  }
+  
+  .stars {
+    fill: $color-orange;
+
+    .star {
+      height: $star-size;
+      width: $star-size;
+      margin: 0 4px;
+    }
+  }
+}
+@media only screen and (max-width: 700px){
+  .testimony{
+    padding: 150px 15px;
+  }
+}

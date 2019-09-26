@@ -1,0 +1,36 @@
+@media only screen and (max-width:768px){
+    footer {
+        .flexbox-container > div {
+            width: auto;
+            padding: 0;
+      
+    }
+        .flexbox-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px 15px 15px 15px;
+        }
+
+        .footer-left{
+            //width: 100%;
+            padding: 0;
+            margin: 0px;
+        }
+        
+        .footer-rigth{
+            margin:0;
+            padding: 0;
+            img{ 
+                display:flex;
+                flex-direction: row;
+            }   
+        }
+        .help{
+            display:flex;
+            flex-direction: row;
+        }
+    
+    }
+
+}
