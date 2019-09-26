@@ -8,3 +8,5 @@ export const five_stars = () => {
    stars_tag.innerHTML += star;
   }
 }
+
+
