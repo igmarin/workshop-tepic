@@ -1,0 +1,22 @@
+
+@media only screen and (max-width:576px){
+    .features{
+        padding-left: 2%;
+        img{
+            width: 100%;
+            margin-left: 0px;
+        }
+        .featuresph{
+            margin-top: 0px;
+            .featuresphTitle{
+                padding-left: 40px;
+                text-align: center;
+            }
+            ul{
+                list-style: none;
+                text-align: center;
+                color: gray;
+            }
+        }
+    }
+}

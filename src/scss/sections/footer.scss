@@ -1,0 +1,58 @@
+
+  footer {
+     
+    background: white;
+   }
+       
+   .flexbox-container {
+      display: -ms-flex;
+      display: -webkit-flex;
+      display: flex;
+  }
+  
+  .flexbox-container > div {
+          width: 50%;
+          padding: 120px;
+    
+  }
+  .flexbox-container > div:first-child {
+          margin-right: 10px;
+  }
+
+
+
+
+  .footer-left{
+     font-size: $font-size;
+     line-height: $line-height;
+     color: $color-grey1;
+     font-family: $font-footer;
+  }
+
+  .footer-left img{
+        padding-bottom: 10px;
+        
+     }
+
+  .footer-rigth{
+        text-align: center;
+        font-size: $font-size;
+        line-height: $line-height;
+        color: $color-grey1;
+        font-family: $font-footer;
+}
+
+  .help{
+        color: $color-gold3;
+  }
+
+  .gmail a{
+        
+        color: $color-gold3;
+        padding-top: 20px;
+  }
+
+  .copyright{
+          color: $color-gold3;
+          padding-top: 15px;
+  }

@@ -1,0 +1,46 @@
+@media only screen and (max-width:768px){
+    .container-bluetooth{
+        padding-top: 100px;
+        padding-bottom: 50px;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        //display: flex;
+        flex-direction: column;
+        padding-left: 120px;
+        //padding-right: 90px;
+    }
+    .bluetooth-first{
+        line-height: 18px;
+    }
+    .bluetooth-text{
+        text-align: center;
+        width: 100%;
+    }
+    .bluetooth-img{
+        width: 90%;
+        padding: 40px;
+    }
+}
+@media only screen and (max-width:576px){
+    .container-bluetooth{
+        padding-top: 100px;
+        padding-bottom: 50px;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        //display: flex;
+        flex-direction: column;
+        padding-left: 120px;
+        //padding-right: 90px;
+    }
+    .bluetooth-first{
+        line-height: 18px;
+    }
+    .bluetooth-text{
+        text-align: center;
+        width: 100%;
+    }
+    .bluetooth-img{
+        width: 90%;
+        padding: 40px;
+    }
+}

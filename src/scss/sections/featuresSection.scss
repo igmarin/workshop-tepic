@@ -1,0 +1,46 @@
+.features{
+    
+    font-family: $font-main;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 4% 0;
+    font-weight: lighter;
+
+    img{
+        @media only screen and (max-width:768px){
+            width: 100%;
+        }
+        @media screen and (min-width: 1200px) {
+            margin-left: 50px;
+            width: 500px;
+            height: 500px;
+        }
+    }
+    .featuresph{
+        margin-top: 163px;
+        font-family: $font-main;
+        width: 500px;
+ 
+    }
+    .featuresph{
+        ul{
+            text-align: left;
+            color: $color-grey1;
+            li {
+                padding: 8px;
+    
+            }
+        }
+        .featuresphTitle{
+            margin: 0;
+            font-size: 40px;
+        }
+        .featuresphContent{
+            margin: 0;
+            font-size: 12px;
+            
+        }
+    }
+}

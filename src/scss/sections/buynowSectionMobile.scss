@@ -1,0 +1,96 @@
+@media only screen and (max-width:1200px){
+    .buynow{
+            img{
+                position: absolute;
+                height: 500px;
+                width: 100%;
+            }
+            .buynowphs{
+                background: linear-gradient(80deg, transparent, rgb(185, 157, 104));
+                position: relative;
+                height: 436px;
+                padding-top: 5%;
+                padding-left: 16%;
+                .buynowph{
+                    padding-top: 10%;
+                    text-align: left;
+                    font-size: 40px;
+                    font-family: $font-main-light;
+                    color: $color-white;
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+@media only screen and (max-width:992px){
+    .buynow{
+            img{
+                position: absolute;
+                height: 500px;
+                width: 100%;
+            }
+            .buynowphs{
+                background: linear-gradient(80deg, transparent, rgb(185, 157, 104));
+                position: relative;
+                height: 436px;
+                padding-top: 5%;
+                padding-left: 16%;
+                .buynowph{
+                    padding-top: 10%;
+                    text-align: left;
+                    font-size: 40px;
+                    font-family: $font-main-light;
+                    color: $color-white;
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+@media only screen and (max-width:768px){
+    .buynow{
+            img{
+                position: absolute;
+                height: 500px;
+                width: 100%;
+            }
+            .buynowphs{
+                background: linear-gradient(80deg, transparent, rgb(185, 157, 104));
+                position: relative;
+                height: 436px;
+                padding-top: 5%;
+                padding-left: 16%;
+                .buynowph{
+                    padding-top: 10%;
+                    text-align: left;
+                    font-size: 40px;
+                    font-family: $font-main-light;
+                    color: $color-white;
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+@media only screen and (max-width:576px){
+.buynow{
+        img{
+            position: absolute;
+            height: 500px;
+            width: 100%;
+        }
+        .buynowphs{
+            background: linear-gradient(80deg, transparent, rgb(185, 157, 104));
+            position: relative;
+            height: 436px;
+            padding-top: 5%;
+            padding-left: 16%;
+            .buynowph{
+                padding-top: 10%;
+                text-align: left;
+                font-size: 40px;
+                font-family: $font-main-light;
+                color: $color-white;
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
